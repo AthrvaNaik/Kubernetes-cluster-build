@@ -294,6 +294,11 @@ kubeadm join 192.168.228.17:6443 \
 --cri-socket=unix:///var/run/crio/crio.sock
 ```
 
+The above command can be obtained by using following command in *Master* Node
+```
+kubeadm token create --print-join-command
+```
+
 
 
 # Verify from master
