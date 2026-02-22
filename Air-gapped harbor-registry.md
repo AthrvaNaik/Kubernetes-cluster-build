@@ -1,8 +1,8 @@
----
 
-# 📘 Air-Gapped Harbor Registry Deployment with HTTPS on RHEL (Complete Documentation)
 
----
+# Air-Gapped Harbor Registry Deployment with HTTPS on RHEL (Complete Documentation)
+
+
 # 1. Project Overview
 
 ## 1.1 Objective
