@@ -88,9 +88,9 @@ Internet → docker pull → docker save → scp → Harbor VM → docker load �
 1. Created new VM
 2. Attached RHEL ISO
 3. Assigned:
-  -  4GB RAM
-  - 2 CPUs
-  - 40GB disk
+  - 8 GB RAM
+  - 4 CPUs
+  - 120 GB disk
 4. Network: VMnet8 (NAT)
 
 # 6. Static IP Assignment
