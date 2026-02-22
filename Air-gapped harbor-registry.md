@@ -380,18 +380,17 @@ Ensured SAN includes IP address.
 
 # 15. Official References
 
-Harbor Documentation:  
-[https://goharbor.io/docs/](https://goharbor.io/docs/)
-Harbor GitHub:  
-[https://github.com/goharbor/harbor](https://github.com/goharbor/harbor)
-Docker Official Docs:  
-[https://docs.docker.com/](https://docs.docker.com/)
-Docker RHEL Installation:  
-[https://docs.docker.com/engine/install/rhel/](https://docs.docker.com/engine/install/rhel/)
-Red Hat Documentation:  
-[https://access.redhat.com/documentation/](https://access.redhat.com/documentation/)
-OpenSSL Docs:  
-[https://www.openssl.org/docs/](https://www.openssl.org/docs/)
+Harbor Documentation: [https://goharbor.io/docs/](https://goharbor.io/docs/)
+
+Harbor GitHub:[https://github.com/goharbor/harbor](https://github.com/goharbor/harbor)
+
+Docker Official Docs:[https://docs.docker.com/](https://docs.docker.com/)
+
+Docker RHEL Installation:[https://docs.docker.com/engine/install/rhel/](https://docs.docker.com/engine/install/rhel/)
+
+Red Hat Documentation:[https://access.redhat.com/documentation/](https://access.redhat.com/documentation/)
+
+OpenSSL Docs:[https://www.openssl.org/docs/](https://www.openssl.org/docs/)
 
 
 
