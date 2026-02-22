@@ -189,7 +189,8 @@ docker compose up -d
 docker ps
 ```
 
-![[Pasted image 20260222180800.png]]
+<img width="800" height="216" alt="image" src="https://github.com/user-attachments/assets/266e1d6b-2cb2-4a8d-9f65-3c8273c528a6" />
+
 
 
 # 10. Private CA & HTTPS Configuration
@@ -293,7 +294,8 @@ Expected:
 {"errors":[{"code":"UNAUTHORIZED","message":"unauthorized"}]}
 ```
 
-![[Pasted image 20260222180925.png]]
+<img width="959" height="110" alt="image" src="https://github.com/user-attachments/assets/89c1525c-3a7f-413c-b377-b085659225b4" />
+
 
 
 # 12. Air-Gapped Image Import
@@ -318,7 +320,8 @@ docker login 192.168.49.100
 docker push 192.168.49.100/library/nginx:latest
 ```
 
-![[Pasted image 20260222180952.png]]
+<img width="1225" height="238" alt="image" src="https://github.com/user-attachments/assets/5a76e5e5-193c-4576-b0e5-b7dac2274314" />
+
 
 ---
 
@@ -332,7 +335,8 @@ Verified:
 
 Projects → library → Repositories → nginx
 
-![[Pasted image 20260222181012.png]]
+<img width="1915" height="964" alt="image" src="https://github.com/user-attachments/assets/d8aa6a18-f695-4975-b359-8dad57c31267" />
+
 
 
 # 14. Troubleshooting Guide
