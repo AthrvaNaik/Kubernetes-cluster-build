@@ -1,6 +1,6 @@
 
 
-# Air-Gapped Harbor Registry Deployment with HTTPS on RHEL (Complete Documentation)
+# Air-Gapped Harbor Registry Deployment with HTTPS on RHEL 
 
 
 # 1. Project Overview
@@ -91,7 +91,7 @@ Internet → docker pull → docker save → scp → Harbor VM → docker load �
   - 8 GB RAM
   - 4 CPUs
   - 120 GB disk
-4. Network: VMnet8 (NAT)
+4. Network: Host only
 
 # 6. Static IP Assignment
 
@@ -173,7 +173,7 @@ vi harbor.yml
 Configured:
 
 ```yaml
-hostname: 192.168.49.
+hostname: 192.168.49.100
 
 https:
   port: 443
