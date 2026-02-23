@@ -341,7 +341,54 @@ Projects → library → Repositories → nginx
 
 # 14. Troubleshooting Guide
 
-## 14.1 SSH Timeout
+
+
+## 14.1 Temporary Insecure Registry Configuration (Testing Phase Only)
+
+During initial testing, Harbor was accessed over HTTP before HTTPS and private CA configuration were finalized.
+
+To allow Docker to communicate with an insecure registry, the following configuration was applied:
+
+### Step 1 – Edit Docker Daemon Configuration
+
+```bash
+vi /etc/docker/daemon.json
+```
+
+Added:
+
+```json
+{
+  "insecure-registries": ["192.168.49.100"]
+}
+```
+
+### Step 2 – Restart Docker
+
+```bash
+systemctl restart docker
+```
+
+### Step 3 – Restart Harbor
+
+```bash
+cd /root/harbor
+docker compose down
+docker compose up -d
+```
+
+---
+
+### ⚠ Important Note
+
+This configuration is **not recommended for production environments**, as it disables TLS verification.
+
+After implementing a proper Private CA and HTTPS configuration, this insecure registry configuration was removed.
+
+---
+
+
+## 14.2 SSH Timeout
 
 Fixed by:
 
@@ -351,14 +398,14 @@ systemctl start sshd
 ```
 
 
-## 14.2 TLS Unknown Authority
+## 14.3 TLS Unknown Authority
 
 Cause: Self-signed server certificate
 
 Fix: Implemented private CA and signed Harbor cert.
 
 
-## 14.3 Docker Restart Stops Harbor
+## 14.4 Docker Restart Stops Harbor
 
 Fix:
 
@@ -367,7 +414,7 @@ docker compose up -d
 ```
 
 
-## 14.4 Certificate SAN Missing
+## 14.5 Certificate SAN Missing
 
 Verified with:
 
