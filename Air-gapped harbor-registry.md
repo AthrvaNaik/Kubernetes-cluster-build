@@ -37,7 +37,7 @@ Official Docker repository:
 [https://docs.docker.com/engine/install/rhel/](https://docs.docker.com/engine/install/rhel/)
 
 Download RPM packages:  
-[https://download.docker.com/linux/rhel/](https://download.docker.com/linux/rhel/)
+[[https://download.docker.com/linux/rhel/](https://download.docker.com/linux/rhel/10/aarch64/test/Packages/)](https://download.docker.com/linux/rhel/)
 
 Packages used:
 - docker-ce
