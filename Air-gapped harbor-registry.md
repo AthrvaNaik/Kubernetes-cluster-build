@@ -166,7 +166,7 @@ systemctl status docker
 ```bash
 tar -xvf harbor-offline-installer-v2.14.2.tgz
 cd harbor
-
+./install.sh
 vi harbor.yml
 ```
 
