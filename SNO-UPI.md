@@ -1,4 +1,4 @@
-# OpenShift SNO (Single Node OpenShift) Setup 
+# OpenShift SNO (Single Node OpenShift) Setup [Connected]
 ## 1. Overview
 
 ### Environment
