@@ -328,5 +328,12 @@ crictl ps
 ss -tulnp | grep 6443
 ```
 
+8. Changing /etc/hosts in harbor VM
+
+```bash
+<SNO-IP> api.sno.lab.local
+<SNO-IP> api-int.sno.lab.local
+<SNO-IP> console-openshift-console.apps.sno.lab.local
+```
 ---
 
